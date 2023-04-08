@@ -1,0 +1,11 @@
+.header__lang-links {
+  padding-bottom: 8px;
+  display: flex;
+  gap: 18px;
+}
+
+@media screen and (min-width: 700px) {
+  .header__lang-links {
+    padding-bottom: 6px;
+  }
+}

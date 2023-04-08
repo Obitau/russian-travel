@@ -1,0 +1,7 @@
+.cover {
+    background-image: url("../../images/cover-trains.jpg");
+    background-size: cover;
+    aspect-ratio: 8/5;
+    max-width: 1184px;
+
+}

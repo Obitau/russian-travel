@@ -1,0 +1,31 @@
+.intro {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media screen and (min-width: 928px) {
+    .intro {
+        max-width: 690px;
+        padding-right: calc(100% - 690px - 24px * 2);
+    }
+}
+
+@media screen and (min-width: 984px) {
+    .intro {
+        padding-right: 238px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .intro {
+        padding-right: calc(100% - 690px - 96px);
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .intro {
+        padding-right: 294px;
+    }
+}
