@@ -2,30 +2,35 @@
     color: #fff;
     margin: 0;
     padding: 0;
+    padding-right: 294px;
+    max-width: 690px;
+
 }
 
-
-@media screen and (min-width: 928px) {
+@media screen and (max-width: 1279px) {
     .intro {
-        max-width: 690px;
-        padding-right: calc(100% - 690px - 24px * 2);
-    }
-}
-
-@media screen and (min-width: 984px) {
-    .intro {
+        
         padding-right: 238px;
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .intro {
-        padding-right: calc(100% - 690px - 96px);
+        
+        padding-right: 0;
+        max-width: 720px;
     }
 }
-
-@media screen and (min-width: 1080px) {
+@media screen and (max-width: 767px) {
     .intro {
-        padding-right: 294px;
+        padding-right: 0;
+        
+       
+    }
+}
+@media screen and (max-width: 320px) {
+    .intro {
+        
+        padding-right: 0;
     }
 }

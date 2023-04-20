@@ -7,8 +7,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
-  gap: 16px;
+  gap: 32px;
 }
 
 .cover__link:before {
@@ -25,8 +24,8 @@
   background-color: rgba(42, 44, 47, 0.8);
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (max-width: 767px) {
   .cover__link {
-    gap: 32px;
+    gap: 16px;
   }
 }
